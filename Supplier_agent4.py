@@ -20,6 +20,7 @@ from urllib.parse import urljoin, urlparse
 import truststore
 import asyncio
 
+import streamlit as st
 from semantic_kernel import Kernel
 from semantic_kernel.functions import kernel_function, KernelArguments
 from semantic_kernel.connectors.ai.open_ai import OpenAIChatCompletion, OpenAIPromptExecutionSettings
